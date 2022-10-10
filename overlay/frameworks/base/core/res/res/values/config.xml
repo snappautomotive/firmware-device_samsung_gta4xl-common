@@ -149,7 +149,9 @@
          dozing).  This should be enabled if you have such services and expect apps to
          correctly use them when installed on your device.  Otherwise, keep this disabled
          so that applications can still use their own mechanisms. -->
+<!-- Disabled: Power save is not needed in auto environments.
     <bool name="config_enableAutoPowerModes">true</bool>
+-->
 
     <!-- User activity timeout: Minimum screen off timeout in milliseconds.
 
